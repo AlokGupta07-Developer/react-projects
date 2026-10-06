@@ -1,6 +1,6 @@
-# Day-4: Recruitment UI using Props Drilling
+# Recruitment UI using Props Drilling
 
-This is my **Day-4 of learning React**. Today, I created a **Company Recruitment UI** using React components and **props drilling**. I created multiple job cards and used props to pass different company and job-related information to each card.
+This is my learning React**. I created a **Company Recruitment UI** using React components and **props drilling**. I created multiple job cards and used props to pass different company and job-related information to each card.
 
 ## 🛠️ What I Learned
 
@@ -116,8 +116,8 @@ Card.jsx
 Job Information through Props
 ```
 
-## 📚 Day-4 Summary
+## 📚 Summary
 
-Today I built a practical **Recruitment UI** using React. I created reusable job cards and passed different company and job information using props.
+I built a practical **Recruitment UI** using React. I created reusable job cards and passed different company and job information using props.
 I also practiced **props drilling** and learned how to use **Lucide React** for icons such as the bookmark icon.
 This project helped me understand how props and reusable components can be used to build a real-world style React interface.
