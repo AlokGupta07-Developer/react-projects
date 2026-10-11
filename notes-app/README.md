@@ -1,7 +1,3 @@
-# React Day 11 🚀
-
-## 📚 What I Learned
-
 Today I practiced **React state management** by building a simple **Notes App**.
 
 I learned how to:
@@ -240,7 +236,7 @@ Used to display every note from the array.
 
 ---
 
-## 🎯 Day 11 Summary
+## 🎯 notes-app Summary
 
 Today I learned how to build a basic **Notes App in React** using:
 
