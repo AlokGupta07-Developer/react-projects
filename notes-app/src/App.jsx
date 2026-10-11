@@ -34,7 +34,8 @@ const App = () => {
           <input
             type="text"
             placeholder="Enter note title"
-            className="w-full border-2 border-white px-5 py-4 mb-5 rounded-lg text-lg font-bold outline-none focus:border-blue-500"
+            className="w-full border-2 border-white px-5 py-4 mb-5 rounded-lg text-lg 
+            font-bold outline-none focus:border-blue-500"
             onChange={(e) => {
               setTitle(e.target.value);
             }}
@@ -43,7 +44,8 @@ const App = () => {
 
           <textarea
             placeholder="Enter note description"
-            className="w-full border-2 border-white px-5 py-4 rounded-lg text-lg font-bold outline-none focus:border-blue-500"
+            className="w-full border-2 border-white px-5 py-4 rounded-lg text-lg 
+            font-bold outline-none focus:border-blue-500"
             onChange={(e) => {
               setDescription(e.target.value);
             }}
@@ -51,7 +53,8 @@ const App = () => {
           ></textarea>
 
           {/* Add Button */}
-          <button className="w-full py-4 rounded-lg border border-white mt-6 text-xl font-bold bg-blue-900 hover:bg-blue-700 hover:scale-105 transition">
+          <button className="w-full py-4 rounded-lg border border-white mt-6 text-xl
+           font-bold bg-blue-900 hover:bg-blue-700 hover:scale-105 transition">
             Add Note
           </button>
         </form>
@@ -65,7 +68,9 @@ const App = () => {
               return (
                 <div
                   key={index}
-                  className="w-full sm:w-40 min-h-50 py-8 px-4 bg-cover bg-center rounded-xl bg-[url('https://www.nicepng.com/png/full/67-679001_notes-document-notepad-office-reminder-sticky-note-paper.png')] text-black"
+                  className="w-full sm:w-40 min-h-50 py-8 px-4 bg-cover bg-center rounded-xl 
+                  bg-[url('https://www.nicepng.com/png/full/67-679001_notes-document-notepad-office-reminder-sticky-note-paper.png')]
+                   text-black"
                 >
                   <h1 className="text-xl font-bold wrap-break-words">
                     {e.title}
@@ -78,7 +83,8 @@ const App = () => {
                     onClick={() => {
                       deleteNote(index);
                     }}
-                    className="mt-5 px-4 py-2 rounded-lg bg-red-600 text-white font-bold hover:bg-red-800 hover:scale-105 transition"
+                    className="mt-5 px-4 py-2 rounded-lg bg-red-600 text-white 
+                    font-bold hover:bg-red-800 hover:scale-105 transition"
                   >
                     Delete
                   </button>
